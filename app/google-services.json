@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69505532425",
+    "project_id": "smartdoctor-e8777",
+    "storage_bucket": "smartdoctor-e8777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69505532425:android:90a14e6454250b66782ed8",
+        "android_client_info": {
+          "package_name": "com.example.smartdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69505532425-cvqot8gg7i2po9nea51bptmlvq31eihc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiVwGnlzs28lwlvXE5UtB6qEttQnRNtCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69505532425-cvqot8gg7i2po9nea51bptmlvq31eihc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

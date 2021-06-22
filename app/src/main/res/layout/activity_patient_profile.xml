@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/backHomePatient"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="16sp"
+                android:paddingTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/patient_name"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="8sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"
+                android:paddingTop="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/patient_email"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="8sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <Button
+                android:layout_marginTop="24dp"
+                android:id="@+id/patient_update_info"
+                android:backgroundTint="@color/background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
